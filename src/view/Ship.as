@@ -1,4 +1,4 @@
-package motion {
+package view {
 	import flash.display.Sprite;
 	
 	/**

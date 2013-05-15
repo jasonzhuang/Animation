@@ -1,6 +1,7 @@
 package motion {
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import view.Arrow;
 	
 	/**
 	 *	Velocity

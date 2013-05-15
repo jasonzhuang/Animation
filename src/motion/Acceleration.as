@@ -3,12 +3,16 @@ package motion {
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.ui.Keyboard;
+	
+	import view.Ship;
+
 	/**
 	 *	Acceleration
 	 * In purely ActionScript terms, you can say that acceleration is a value that you add to a velocity
 	 *	property.
 	 */
-	public class ShipSim extends Sprite {
+	public class Acceleration extends Sprite {
+		private var friction:Number = 0.9;
 		private var ship:Ship;
 		//rotational velocity
 		private var vr:Number = 0;
@@ -17,7 +21,7 @@ package motion {
 		private var vx:Number = 0;
 		private var vy:Number = 0;
 		
-		public function ShipSim()
+		public function Acceleration()
 		{
 			init();
 		}
@@ -67,6 +71,8 @@ package motion {
 			var ay:Number = Math.sin(angle) * thrust;
 			vx += ax;
 			vy += ay;
+			vx *= friction;
+			vy *= friction;
 			ship.x += vx;
 			ship.y += vy;
 		}

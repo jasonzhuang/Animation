@@ -2,6 +2,8 @@ package basic {
 	import flash.display.Sprite;
 	import flash.events.Event;
 	
+	import view.Ball;
+	
 	/**
 	 *	Bobbing
 	 */

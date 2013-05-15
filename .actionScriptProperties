@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="basic/Temp.as" projectUUID="f89f5a8f-400e-46fa-95da-285d20f70059" version="10">
-  <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="false" warn="true">
+<actionScriptProperties analytics="false" mainApplicationPath="collision/ObjectHitTest.as" projectUUID="f89f5a8f-400e-46fa-95da-285d20f70059" version="10">
+  <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="false" flexSDK="Flex 4.6.0" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="false" warn="true">
     <compilerSourcePath/>
     <libraryPath defaultLinkType="0">
       <libraryPathEntry kind="4" path="">
@@ -32,15 +32,24 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
+    <application path="motion/Circle.as"/>
     <application path="basic/Wave.as"/>
     <application path="basic/Random.as"/>
+    <application path="moving/MouseMoveDrag.as"/>
+    <application path="ease/Easing.as"/>
+    <application path="ease/EaseToMouse.as"/>
+    <application path="friction/Friction.as"/>
+    <application path="friction/Fountain.as"/>
+    <application path="moving/Throwing.as"/>
+    <application path="view/Ship.as"/>
+    <application path="friction/Bouncing.as"/>
+    <application path="motion/Acceleration.as"/>
     <application path="motion/RotationVelocity.as"/>
-    <application path="basic/Circle.as"/>
-    <application path="motion/Ship.as"/>
+    <application path="moving/DragAndMove.as"/>
+    <application path="collision/ObjectHitTest.as"/>
     <application path="basic/Bobbing.as"/>
-    <application path="motion/ShipSim.as"/>
+    <application path="ease/Sprining.as"/>
     <application path="motion/FollowMe.as"/>
-    <application path="basic/Ball.as"/>
   </applications>
   <modules/>
   <buildCSSFiles/>
