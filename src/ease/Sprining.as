@@ -5,7 +5,7 @@ package ease {
 	import view.Ball;
 
 	/**
-	 *	Sprining
+	 *	Sprining:proportional acceleration
 	 */
 	public class Sprining extends Sprite {
 		private var ball:Ball;

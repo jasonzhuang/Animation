@@ -6,7 +6,8 @@ package ease {
 	import view.Ball;
 	
 	/**
-	 *	Easing:easing isn't just for motion, also work for alpha, rotation, colors 
+	 *	Easing:proportional velocity
+	 * Noteeasing isn't just for motion, also work for alpha, rotation, colors 
 	 */
 	public class Easing extends Sprite {
 		private var ball:Ball;
