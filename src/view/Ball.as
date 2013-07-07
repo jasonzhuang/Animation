@@ -6,6 +6,7 @@ package view{
 		public var radius:Number;
 		public var vx:Number = 0;
 		public var vy:Number = 0;
+		public var mass:Number = 1;
 		
 		public function Ball(radius:Number=40, color:uint=0xff0000) {
 			this.radius = radius;
