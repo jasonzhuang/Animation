@@ -1,2 +1,1 @@
-Animation
-=========
+This is ActionScript based animation. It includes collision, easing, motion, bounce, momentum and so on.
