@@ -7,7 +7,7 @@ package ease {
 	
 	/**
 	 *	Easing:proportional velocity
-	 * Noteeasing isn't just for motion, also work for alpha, rotation, colors 
+	 * Note easing isn't just for motion, also work for alpha, rotation, colors 
 	 */
 	public class Easing extends Sprite {
 		private var ball:Ball;

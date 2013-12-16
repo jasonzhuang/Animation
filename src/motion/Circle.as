@@ -11,7 +11,7 @@ package motion {
 		private var angle:Number = 0;
 		private var centerX:Number = 200;
 		private var centerY:Number = 200;
-		private var radius:Number = 50;
+		private var rotationRadius:Number = 50;
 		private var speed:Number = .1;
 		
 		public function Circle() {
@@ -24,8 +24,8 @@ package motion {
 			addEventListener(Event.ENTER_FRAME, onEnterFrame);
 		}
 		public function onEnterFrame(event:Event):void {
-			ball.x = centerX + Math.cos(angle) * radius;
-			ball.y = centerY + Math.sin(angle) * radius;
+			ball.x = centerX + Math.cos(angle) * rotationRadius;
+			ball.y = centerY + Math.sin(angle) * rotationRadius;
 			angle += speed;
 		}
 	}
